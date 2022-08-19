@@ -1,50 +1,50 @@
 :root {
-  /*fonts*/
-  --main-font: 'Roboto', sans-serif;
-  --logo-font: 'Raleway', sans-serif;
+	/*fonts*/
+	--main-font: 'Roboto', sans-serif;
+	--logo-font: 'Raleway', sans-serif;
 
-  /*text*/
-  --main-txt-cl: #212121;
-  --text-cl: #757575;
-  --accent-txt-cl: #2196f3;
-  --main-line-h: 1.7142857143;
-  --txt-line-h: 0.58333333;
-  --main-letter-s: 0.03em;
-  --additional-letter-s: 0.02em;
-  --accent-letter-s: 0.06em;
+	/*text*/
+	--main-txt-cl: #212121;
+	--text-cl: #757575;
+	--accent-txt-cl: #2196f3;
+	--main-line-h: calc(16 / 14);
+	--txt-line-h: calc(24 / 14);
+	--main-letter-s: 0.03em;
+	--additional-letter-s: 0.02em;
+	--accent-letter-s: 0.06em;
 
-  /*bcg colors*/
-  --main-bcg-cl: #ffffff;
+	/*bcg colors*/
+	--main-bcg-cl: #ffffff;
 
-  /*others*/
+	/*others*/
 }
 .page {
-  font-family: sans-serif;
-  font-size: 14px;
-  line-height: var(--main-line-h);
-  letter-spacing: var(--main-letter-s);
-  color: var(--main-txt-cl);
-  background-color: var(--main-bcg-cl);
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: var(--main-line-h);
+	letter-spacing: var(--main-letter-s);
+	color: var(--main-txt-cl);
+	background-color: var(--main-bcg-cl);
 }
 .logo {
-  font-family: var(--logo-font);
+	font-family: var(--logo-font);
 }
 .accent {
-  color: var(--accent-txt-cl);
+	color: var(--accent-txt-cl);
 }
 .link,
 .logo {
-  text-decoration: none;
-  color: currentColor;
+	text-decoration: none;
+	color: currentColor;
 }
 .list {
-  list-style: none;
+	list-style: none;
 }
 /* Header */
 .header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: #212121;
 }
