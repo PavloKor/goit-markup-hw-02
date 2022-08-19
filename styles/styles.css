@@ -1,9 +1,9 @@
-    :root {
-        /*fonts*/
-        --main-font: 'Roboto', sans-serif;
-        --logo-font: 'Raleway', sans-serif;
+:root {
+    /*fonts*/
+    --main-font: 'Roboto', sans-serif;
+     --logo-font: 'Raleway', sans-serif;
 
-        /*text*/
+    /*text*/
         --main-txt-cl: #212121;
         --text-cl: #757575;
         --accent-txt-cl: #2196f3;
