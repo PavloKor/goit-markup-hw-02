@@ -1,8 +1,61 @@
-# goit-markup-hw-01
+# goit-markup-hw-02
 
-#header - клас для header; logo-link - клас посилання логотипу; nav - клас для навігації; list -
-клас для списку; list-item - клас для li у списку; link - клас для посилань; section - клас для
-секції; btn - клас для кнопок; main-title - клас для заголовку; caption - клас до заголовків h3;
-team-position - клас для тексту у тегах P; section-title - клас для заголовків секцій у тегу h2;
-team-name - клас для імен команди, записаний у тегу h3; desc-address - клас для тегу p у секціі
-адреси;
+_Назви класів_
+
+_блок header_
+
+- page - body
+- header - header
+- logo - logo
+- accent - клас для виділення слова Web
+- nav - nav
+- list-nav - ul навіігації
+- nav-item - li навігації
+- link-nav - посилання навігації
+- contact-item - li контакти
+- link-contact - посилання контакти
+
+_Блок main_
+
+_Перша секція (Шапка)_
+
+- section-slogan - секція шапка
+- slogan - заголовок h1
+- btn - клас для кнопок
+
+_Друга секція Особливості_
+
+- about - секція
+- hide - клас для заголовку який потрібно приховати
+- about-list - список ul
+- about-item -список li
+- caption - заголовки h3
+- desc - параграф з текстом
+
+_Третя секція Чим ми займаємося Work_
+
+- work - клас секції
+- work-title - заголовок
+- work-list - список ul
+- work-img - зображення секції Work
+
+_Четверта секція Наша команда Team_
+
+- team - клас секції
+- team-title - заголовок секції
+- team-list - список ul
+- team-item - список li
+- team-img - фото
+- team-name - імʼя
+- team-position - посада
+
+_Підвал Footer_
+
+- footer -клас підвалу
+- logo - logo
+- accent - клас для виділення слова Web
+- address - секція адреси
+- address-desc - текст з адресою
+- address-list - список ul
+- address-item - список li
+- address-link - посилання
