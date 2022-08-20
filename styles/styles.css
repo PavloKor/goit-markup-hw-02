@@ -103,6 +103,20 @@
   color: var(--btn-txt-cl);
   cursor: pointer;
   border: none;
+  text-align: center;
+  letter-spacing: var(--main-letter-s);
+}
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+}
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
 }
 .project-title {
   font-weight: 700;
