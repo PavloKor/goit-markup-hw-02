@@ -59,3 +59,12 @@ _Підвал Footer_
 - address-list - список ul
 - address-item - список li
 - address-link - посилання
+
+_Сторінка портфоліо_
+
+_Блок main_
+
+- filter-group - коробочка для списку з фільтр кнопками
+- filter-list - список ul
+- filter-btn - кнопки
+- projects - список ul з проектами

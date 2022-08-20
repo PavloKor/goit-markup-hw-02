@@ -92,7 +92,8 @@
 	text-transform: uppercase;
 	color: #ffffff;
 }
-.btn {
+.btn,
+.filter-btn {
 	background-color: var(--btn-bcg-cl);
 	color: var(--btn-txt-cl);
 	cursor: pointer;
