@@ -41,6 +41,9 @@
 }
 .logo {
   font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
 }
 .accent {
   color: var(--accent-txt-cl);
@@ -95,9 +98,11 @@
 }
 .btn,
 .filter-btn {
+  font-family: inherit;
   background-color: var(--btn-bcg-cl);
   color: var(--btn-txt-cl);
   cursor: pointer;
+  border: none;
 }
 .project-title {
   font-weight: 700;
@@ -162,17 +167,21 @@
 .team-list {
 }
 .team-item {
+  background-color: var(--main-bcg-cl);
 }
 .team-img {
 }
 .team-name {
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
 }
 .team-position {
+  text-align: center;
   font-size: 16px;
   line-height: calc(19 / 16);
+  letter-spacing: var(--main-letter-s);
   color: var(--text-cl);
 }
 
