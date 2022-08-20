@@ -98,6 +98,18 @@
 	color: var(--btn-txt-cl);
 	cursor: pointer;
 }
+.project-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: calc(36 / 18);
+	letter-spacing: var(--accent-letter-s);
+}
+.project-desc {
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	letter-spacing: var(--main-letter-s);
+	color: var(--text-cl);
+}
 
 /* Особливлсті секція about */
 .about {
@@ -163,6 +175,21 @@
 	color: var(--text-cl);
 }
 
+/* Головна секція у портфоліо */
+.filter-btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(26 / 16);
+	color: var(--main-txt-cl);
+	display: block;
+	cursor: pointer;
+	background-color: #f5f4fa;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+	color: var(--btn-txt-cl);
+	background-color: var(--btn-bcg-cl);
+}
 /* Підвал Footer */
 
 .footer {
